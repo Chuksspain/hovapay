@@ -24,10 +24,6 @@ header {
     width: 200px;
 }
 
-.logo:hover {
-    width: 150px;
-}
-
 .navs {
     display: flex;
     flex-direction: row;
@@ -35,11 +31,6 @@ header {
     width: 100%;
     margin-left: 300px;
     align-items: center;
-}
-
-.navs:hover {
-    color: #0E3C6E;
-    font-weight: bold;
 }
 
 .help {
@@ -109,10 +100,6 @@ header {
     margin-top: -70px;
 }
 
-.search:hover {
-    color: white;
-}
-
 .form-wrap {
     display: flex;
     flex-direction: row;
@@ -146,10 +133,6 @@ header {
     color: white;
 }
 
-.book-flights:hover {
-    color: orange;
-}
-
 .find-hotels {
     display: flex;
     flex-direction: row;
@@ -163,10 +146,6 @@ header {
     border-radius: 0px 5px 0px 0px;
     font-size: 15px;
     color: white;
-}
-
-.find-hotels:hover {
-    color: #0E3C6E;
 }
 
 .wrap-up {
@@ -197,10 +176,6 @@ header {
     z-index: 0;
 }
 
-.from-where:hover {
-    background: #ffaa5f;
-}
-
 .to-where {
     display: flex;
     flex-direction: row;
@@ -216,10 +191,6 @@ header {
     z-index: 0;
 }
 
-.to-where:hover {
-    background: #ffaa5f;
-}
-
 .log {
     display: flex;
     flex-direction: row;
@@ -229,10 +200,6 @@ header {
     border-radius: 20px;
     z-index: 1;
     margin-left: -6px;
-}
-
-.log:hover {
-    background: #ffaa5f;
 }
 
 .leaving-wrap {
@@ -245,10 +212,6 @@ header {
     height: 68px;
     background: #FFFFFF;
     border-radius: 5px;
-}
-
-.leaving-wrap:hover {
-    background: #ffaa5f;
 }
 
 .location-wrap {
@@ -300,18 +263,11 @@ header {
     font-size: 50;
 }
 
-.round-trip:hover {
-    color: #0E3C6E;
-}
 
 .one-day {
     display: flex;
     flex-direction: row;
     color: white;
-}
-
-.one-day:hover {
-    color: #0E3C6E;
 }
 
 .round-one {
@@ -324,10 +280,6 @@ header {
     height: 52px;
     background: linear-gradient(180deg, #FF9639 0%, #F07100 100%);
     border-radius: 100px;
-}
-
-.round-one:hover {
-    background: #ffaa5f;
 }
 
 .passenger {
@@ -344,11 +296,6 @@ header {
     color: white;
 }
 
-.passenger:hover {
-    background: #ffaa5f;
-    color: #0E3C6E;
-}
-
 .economy {
     display: flex;
     flex-direction: row;
@@ -361,11 +308,6 @@ header {
     background: linear-gradient(180deg, #FF9639 0%, #F07100 100%);
     border-radius: 5px;
     color: white;
-}
-
-.economy:hover {
-    background: #ffaa5f;
-    color: #0E3C6E;
 }
 
 .duty {
@@ -393,18 +335,9 @@ header {
     color: white;
 }
 
-.search-wrap:hover {
-    background: #ffaa5f;
-    color: #0E3C6E;
-}
-
 .sarch {
     font-size: 15px;
     color: white;
-}
-
-.sarch:hover {
-    color: #0E3C6E;
 }
 
 .from-w-wrap {
@@ -470,10 +403,6 @@ header {
     color: white;
 }
 
-.my-date:hover {
-    color: #F07100;
-}
-
 .sec2 {
     padding: 30px 110px 30px 110px;
     height: 30vh;
@@ -507,11 +436,6 @@ header {
     font-size: 14px;
 }
 
-.preference:hover {
-    color: #0E3C6E;
-    font-weight: bold;
-}
-
 .sec3 {
     padding: 30px 110px 30px 110px;
     height: 95vh;
@@ -535,10 +459,6 @@ header {
 .todays {
     font-size: 20px;
     font-weight: bold;
-}
-
-.todays:hover {
-    color: #F07100;
 }
 
 .ibom-air {
@@ -589,10 +509,6 @@ header {
     justify-content: center;
 }
 
-.pay-wrap:hover {
-    border-color: #0E3C6E;
-}
-
 .small-wrap {
     display: flex;
     flex-direction: column;
@@ -602,11 +518,6 @@ header {
     color: white;
     align-items: center;
     justify-content: center;
-}
-
-.small-wrap:hover {
-    background-color: #0E3C6E;
-    color: #fe8d2a;
 }
 
 .pay-now {
@@ -635,10 +546,6 @@ header {
     font-size: 23px;
     font-weight: bold;
     margin-left: 10px;
-}
-
-.popcities:hover {
-    color: #FF9639;
 }
 
 .dlondon-wrap {
@@ -670,17 +577,9 @@ header {
     color: white;
 }
 
-.donn:hover {
-    color: #FF9639;
-}
-
 .don {
     font-size: 16px;
     color: white;
-}
-
-.don:hover {
-    color: #a3cefb;
 }
 
 .sec5 {
@@ -689,10 +588,6 @@ header {
     padding: 30px 110px 30px 110px;
     height: 65vh;
     background-color: #0E3C6E;
-}
-
-.sec5:hover {
-    background-color: #ffaa5f;
 }
 
 .hpay-wrap {
@@ -719,17 +614,9 @@ header {
     font-weight: bold;
 }
 
-.inpay:hover {
-    color: #0E3C6E;
-}
-
 .deals {
     font-size: 16px;
     color: white;
-}
-
-.deals:hover {
-    color: #0E3C6E;
 }
 
 .contact-wrap {
@@ -757,10 +644,6 @@ header {
     align-items: center;
 }
 
-.or:hover {
-    color: #0E3C6E;
-}
-
 .qr {
     display: flex;
     flex-direction: column;
@@ -771,10 +654,6 @@ header {
     color: white;
     width: 120px;
     font-weight: bold;
-}
-
-.deal:hover {
-    color: #0E3C6E;
 }
 
 .sec6 {
@@ -794,18 +673,11 @@ header {
     gap: 10px;
 }
 
-.sec6:hover {
-    background-color: #a3cefb;
-}
-
 .gurantee {
     font-weight: bold;
     font-size: 16px;
 }
 
-.gurantee:hover {
-    color: #F07100;
-}
 
 .domestic {
     width: 220px;
@@ -831,9 +703,6 @@ header {
     padding-left: 25px;
 }
 
-.search-form:hover {
-    width: 570px;
-}
 
 .button {
     height: 38px;
@@ -846,9 +715,6 @@ header {
     margin-left: -140px;
 }
 
-.button:hover {
-    background-color: #0E3C6E;
-}
 
 .look {
     width: 547px;
@@ -857,10 +723,6 @@ header {
     line-height: 25px;
 }
 
-.look:hover {
-    color: #F07100;
-    font-weight: bold;
-}
 
 .sec8 {
     display: flex;
@@ -875,29 +737,20 @@ header {
     gap: 25px;
 }
 
-.necessary-wrap:hover {
-    color: #0E3C6E;
-}
 
 .require {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    width: 801px;
+    width: 800px;
 }
 
-.require:hover {
-    color: #F07100;
-}
 
 .png {
     width: 400px;
     margin-left: -200px;
 }
 
-.png:hover {
-    width: 450px;
-}
 
 .salute {
     display: flex;
