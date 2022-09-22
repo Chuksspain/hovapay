@@ -883,7 +883,7 @@ header {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    width: 800px;
+    width: 801px;
 }
 
 .require:hover {
