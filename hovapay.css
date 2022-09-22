@@ -22,6 +22,7 @@ header {
 
 .logo {
     width: 200px;
+
 }
 
 .navs {
@@ -200,6 +201,7 @@ header {
     border-radius: 20px;
     z-index: 1;
     margin-left: -6px;
+    border-style: none;
 }
 
 .leaving-wrap {
@@ -289,11 +291,12 @@ header {
     align-items: center;
     padding: 10px;
     gap: 8px;
-    width: 200px;
+    width: 300px;
     height: 40px;
     background: linear-gradient(180deg, #FF9639 0%, #F07100 100%);
     border-radius: 5px;
     color: white;
+    margin-left: -100px;
 }
 
 .economy {
@@ -303,11 +306,12 @@ header {
     align-items: center;
     padding: 10px;
     gap: 8px;
-    width: 200px;
+    width: 300px;
     height: 40px;
     background: linear-gradient(180deg, #FF9639 0%, #F07100 100%);
     border-radius: 5px;
     color: white;
+    margin-left: -100px;
 }
 
 .duty {
@@ -328,11 +332,12 @@ header {
     justify-content: center;
     padding: 10px;
     gap: 8px;
-    width: 200px;
+    width: 300px;
     height: 50px;
     background: linear-gradient(180deg, #FF9639 0%, #F07100 100%);
     border-radius: 5px;
     color: white;
+    margin-left: -100px;
 }
 
 .sarch {
@@ -404,8 +409,8 @@ header {
 }
 
 .sec2 {
-    padding: 30px 110px 30px 110px;
-    height: 30vh;
+    padding: 100px 110px 80px 110px;
+
 }
 
 .sec-pay {
@@ -437,8 +442,7 @@ header {
 }
 
 .sec3 {
-    padding: 30px 110px 30px 110px;
-    height: 95vh;
+    padding: 80px 110px 30px 110px;
     background-color: #EEF6FF;
     display: flex;
     flex-direction: column;
@@ -533,7 +537,6 @@ header {
     display: flex;
     flex-direction: column;
     padding: 30px 110px 30px 110px;
-    height: 65vh;
     gap: 20px;
 }
 
@@ -585,8 +588,6 @@ header {
 .sec5 {
     display: flex;
     flex-direction: row;
-    padding: 30px 110px 30px 110px;
-    height: 65vh;
     background-color: #0E3C6E;
 }
 
@@ -601,11 +602,13 @@ header {
     flex-direction: column;
     gap: 20px;
     width: 500px;
+    padding-top: 70px;
 }
 
 .phone {
-    width: 430px;
-    height: 530px;
+    margin-top: -100px;
+    margin-bottom: -100px;
+
 }
 
 .inpay {
@@ -629,10 +632,6 @@ header {
     display: flex;
     flex-direction: column;
     gap: 15px;
-}
-
-.aps {
-    width: 180px;
 }
 
 .or {
@@ -660,7 +659,6 @@ header {
     display: flex;
     flex-direction: row;
     padding: 30px 110px 30px 110px;
-    height: 65vh;
     justify-content: center;
     align-items: center;
     gap: 50px;
@@ -680,7 +678,7 @@ header {
 
 
 .domestic {
-    width: 220px;
+
     text-align: center;
 }
 
@@ -688,7 +686,6 @@ header {
     display: flex;
     flex-direction: column;
     padding: 30px 110px 30px 110px;
-    height: 45vh;
     justify-content: center;
     align-items: center;
     background: #EAEAEA;
@@ -697,7 +694,6 @@ header {
 
 .search-form {
     height: 50px;
-    width: 550px;
     border-radius: 20px;
     border-style: none;
     padding-left: 25px;
@@ -706,18 +702,15 @@ header {
 
 .button {
     height: 38px;
-    width: 135px;
     border-radius: 20px;
     background-color: #fe8d2a;
     color: white;
     font-size: 15px;
     border-style: none;
-    margin-left: -140px;
 }
 
 
 .look {
-    width: 547px;
     font-size: 15px;
     text-align: center;
     line-height: 25px;
@@ -728,7 +721,6 @@ header {
     display: flex;
     flex-direction: row;
     padding: 60px 30px 30px 130px;
-    height: 110vh;
 }
 
 .necessary-wrap {
@@ -742,13 +734,17 @@ header {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    width: 800px;
+}
+
+.require img {
+    width: 20px;
+    height: 20px;
 }
 
 
 .png {
-    width: 400px;
-    margin-left: -200px;
+    margin-left: -100px;
+
 }
 
 
@@ -757,4 +753,16 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    max-width: 400px;
+}
+
+.salute img {
+    max-width: 100%;
+}
+
+.form-wr {
+    border-radius: 20px;
+    border-style: none;
+    background-color: white;
+    padding-right: 7px;
 }
