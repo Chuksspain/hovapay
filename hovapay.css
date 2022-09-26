@@ -766,3 +766,16 @@ header {
     background-color: white;
     padding-right: 6px;
 }
+
+.ourp-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.jum-wrap {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 130px 30px 130px;
+    gap: 30px;
+}
