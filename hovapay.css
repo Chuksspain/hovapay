@@ -779,3 +779,54 @@ header {
     padding: 60px 130px 30px 130px;
     gap: 30px;
 }
+
+footer {
+    padding: 60px 130px 30px 130px;
+    background: #0E3C6E;
+}
+
+.footer-wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.vels-wrap {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    color: white;
+    gap: 20px;
+}
+
+.vel-wrap {
+    display: flex;
+    flex-direction: column;
+    max-width: 160px;
+    color: white;
+    gap: 20px;
+}
+
+.ql {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.linnk {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.ptag-wrap {
+    display: flex;
+    flex-direction: column;
+    max-width: 160px;
+    color: white;
+    gap: 20px;
+}
+
+.wrap-wrap {
+    display: flex;
+    flex-direction: column;
+}
