@@ -829,4 +829,34 @@ footer {
 .wrap-wrap {
     display: flex;
     flex-direction: column;
+    gap: 20px;
+    margin-bottom: 18px;
+}
+
+.hotela {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.fly {
+    max-width: 200px;
+    border-width: 1px;
+    border-style: solid;
+    padding: 7px;
+    max-height: 40px;
+}
+
+.apa {
+    max-width: 200px;
+    border-width: 1px;
+    border-style: solid;
+    padding: 7px;
+    max-height: 40px;
+}
+
+.twi {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
